@@ -1,0 +1,119 @@
+.contenido {
+	width: 50%;
+	margin: auto;
+	padding-top: 35px;
+}
+
+.logo {
+	margin: 10px auto;
+	margin-bottom: 0px;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+
+.icono {
+	width: 56px;
+	margin: 0px 15px;
+	margin-top: 15px;
+}
+
+.menuIcon {
+	width: 36px;
+	margin-top: 8px;
+}
+
+.homeButton {
+	margin: 35px 15px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+   	flex: 1 0 auto;
+}
+
+#nav-mobile {
+	padding-top: 40px; 
+	padding-right: 40px; 
+}
+
+#contenedor_menu {
+	padding: 80px;
+	padding-top: 140px;
+	position: fixed;
+}
+
+#team_container {
+	width: 910px;
+	margin: auto;
+	padding-top: 50px;
+}
+
+#team{
+  text-align: center;
+  max-width: 910px;
+}
+  #titulo{
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+.persona{
+  webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+
+  width: 300px;
+  height: 346px;
+  background-color: #dbdbdb;
+  border: 1px solid #dbdbdb;
+  float: left;
+
+  transition: filter .25s ease-in-out;
+  -moz-transition: filter .25s ease-in-out;
+  -webkit-transition: filter .25s ease-in-out;
+}
+.persona:hover{
+  webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+
+  .persona_portada{
+
+    width: 300px;
+    height: 110px;
+
+  }
+
+  .persona_foto{
+
+    display: block;
+    width: 120px;
+    height: 120px;
+
+    margin:auto;
+    margin-top: -60px;
+    z-index:1;
+    position: relative;
+
+    border-radius: 50%;
+    border:5px solid white;
+  }
+  .persona_descripcion{
+    background-color: white;
+    color: gray;
+    height: 230px;
+    margin-top: -70px;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  .persona_nombre{
+    font-weight: bold;
+    padding-bottom: 10px;
+  }

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/superchef.css"/>
+    <meta charset="utf-8">
+    <title>Fase #2 - Multimedia</title>
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav class="orange darken-4">
+        <div class="nav-wrapper">
+          <a href="team.html" title="Conoce al Equipo de Desarrollo SuperChef!"><img class="responsive-img logo" src="images/iconoSC.png"/></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li>
+              <a class="waves-effect waves-dark yellow accent-4 black-text btn-large" href="index.html">
+                <i class="material-icons left">info_outline</i>Fase 1
+              </a>
+            </li>
+            <li>
+              <a class="waves-effect waves-dark red accent-4 white-text btn-large pulse" href="phase_2.html">
+                <i class="material-icons left">assignment</i>Fase 2
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div id="contenedor_menu">
+      <div class="col hide-on-small-only m3 l2">
+        <ul class="section table-of-contents">
+          <li><a href="#funcionales">Req. Funcionales</a></li>
+          <li><a href="#no_funcionales">Req. No-Funcionales</a></li>
+          <li><a href="#aceptacion">Casos de Aceptación</a></li>
+          <li><a href="#cronograma">Cronograma</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="contenido">
+      <div class="row">
+        <div class="col s12">
+          <div id="funcionales" class="card yellow lighten-5 section scrollspy">
+            <div class="card-content black-text">
+              <ul class="collection with-header">
+                <li class="collection-header center"><h4>Requerimientos Funcionales</h4></li>
+                <li class="collection-item">Debe haber un menú que permita navegar entre las diferentes categorías de productos.</li>
+                <li class="collection-item">Debe haber un campo que permita la búsqeda de un producto por su nombre.</li>
+                <li class="collection-item">Debe haber un control en forma de flechas para el desplazamiento entre productos de cada categoría.</li>
+                <li class="collection-item">La multimedia debe permitir el registro, actualización o eliminación de un producto.</li>
+                <li class="collection-item">La multimedia debe permitir ver un producto a detalle.</li>
+              </ul>
+            </div>
+          </div>
+          <div id="no_funcionales" class="card deep-orange lighten-5 section scrollspy">
+            <div class="card-content black-text">
+              <ul class="collection with-header">
+                <li class="collection-header center"><h4>Requerimientos No-Funcionales</h4></li>
+                <li class="collection-item">Para el desarrollo del aplicativo se requiere de equipos con editores de texto y visualización web, capacidad de reproducción multimedia y conexión a internet.</li>
+                <li class="collection-item">Los usuarios de la aplicación deben contar con un dispositivo con capacidad de reproducción multimedia (imágenes, audio, vídeos, texto), y un intérprete de contenido web actualizado (HTML5, CSS3).</li>
+              </ul>
+            </div>
+          </div>
+          <div id="aceptacion" class="card yellow lighten-5 section scrollspy">
+            <div class="card-content black-text">
+              <ul class="collection with-header">
+                <li class="collection-header center"><h4>Casos de aceptación</h4></li>
+                <li class="collection-item">Las animaciones en menús y botones no deben durar más de 300 ms.</li>
+                <li class="collection-item">Para pantallas móviles, el catálogo debe ser adaptativo para Tablets y Smartphones.</li>
+                <li class="collection-item">Debe haber un límite de 1 imágen completa y 4 miniaturas de imágenes por vista. En teléfonos y tablets solo 1 imagen completa sin miniaturas.</li>
+                <li class="collection-item">Los botones que no sean del control de navegación de la galería de productos, deben tener un texto descriptivo, en caso de que no tenga texto en sí mismo.</li>
+                <li class="collection-item">El texto de la información constitucional no debe presentarse en una fuente serif.</li>
+              </ul>
+            </div>
+          </div>
+          <div id="cronograma" class="card section scrollspy">
+            <div class="card-content">
+              <div class="card">
+            <div class="card-image">
+              <img src="images/cronograma.png">
+            </div>
+            <div class="card-content">
+              <blockquote>
+                <h4>Cronograma de Actividades</h4>
+              </blockquote>
+              <p class="flow-text">Se propone seguir este cronograma para la realización del proyecto, con el fin de llevar a cabo correctamente los procesos necesarios y lograr entregar el producto requerido en el tiempo establecido.</p>
+            </div>
+            
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+
+    <footer class="page-footer orange darken-4">
+      <div class="footer-copyright">
+        <div class="container">
+          © 2017 SuperChef Development Team.
+        </div>
+        <a class="grey-text text-lighten-4 right" href="team.html"><i class="material-icons right">help_outline</i>Conoce al equipo!</a>
+      </div>
+    </footer>
+
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.scrollspy').scrollSpy();
+    });
+  </script>
+  </body>
+</html>
