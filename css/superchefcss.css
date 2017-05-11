@@ -48,3 +48,10 @@ html{
   border-color: #D50000;
   color: #FFFFFF;
 }
+
+.imgCirclContainer {
+  width: 96px; 
+  height: 96px; 
+  background-color: #e53935;
+  box-shadow: 2px 2px 5px #000;
+}
