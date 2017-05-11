@@ -10,6 +10,7 @@ html{
 
 
 #btn-nav-sc{
+  padding: 10px;
   margin-right: 5px;
   border-radius: 0px;
   background-color: #ffd600;
@@ -19,7 +20,7 @@ html{
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
   color: #000;
-  box-shadow: 2px 2px 9px #000;
+  box-shadow: 2px 2px 5px #000;
 }
 
 #btn-nav-sc:hover{
@@ -29,6 +30,7 @@ html{
 }
 
 #btn-nav-active-sc{
+  padding: 10px;
   margin-right: 5px;
   border-radius: 0px;
   background-color: #D50000;
@@ -38,7 +40,7 @@ html{
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
   color: #FFFFFF;
-  box-shadow: 2px 2px 9px #000;
+  box-shadow: 2px 2px 5px #000;
 }
 
 #btn-nav-active-sc:hover{
