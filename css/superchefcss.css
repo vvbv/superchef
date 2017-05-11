@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html{
+  font-family: 'Roboto', sans-serif;
+}
+
+#logo-SC{
+  height: 60px;
+}
+
+
+#btn-nav-sc{
+  margin-right: 5px;
+  border-radius: 0px;
+  background-color: #ffd600;
+  border-color: #ffd600;
+  font-weight: normal;
+  font-size: 1em;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  box-shadow: 2px 2px 9px #000;
+}
+
+#btn-nav-sc:hover{
+  background-color: #D50000;
+  border-color: #D50000;
+  color: #FFFFFF;
+}
+
+#btn-nav-active-sc{
+  margin-right: 5px;
+  border-radius: 0px;
+  background-color: #D50000;
+  border-color: #D50000;
+  font-weight: normal;
+  font-size: 1em;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+  box-shadow: 2px 2px 9px #000;
+}
+
+#btn-nav-active-sc:hover{
+  background-color: #D50000;
+  border-color: #D50000;
+  color: #FFFFFF;
+}
