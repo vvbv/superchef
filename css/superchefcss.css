@@ -50,8 +50,27 @@ html{
 }
 
 .imgCirclContainer {
-  width: 96px; 
-  height: 96px; 
+  width: 96px;
+  height: 96px;
   background-color: #e53935;
   box-shadow: 2px 2px 5px #000;
+}
+
+.card-title{
+  margin-top: 1rem;
+}
+
+.card:hover{
+  border-color: #e53935;
+  /*box-shadow: 0px 0px 15px #e53935;*/
+  transition: border-color .25s ease-in-out;
+  -moz-transition: border-color .25s ease-in-out;
+  -webkit-transition: border-color .25s ease-in-out;
+  /*transition: box-shadow .25s ease-in-out;
+  -moz-transition: box-shadow .25s ease-in-out;
+  -webkit-transition: box-shadow .25s ease-in-out;*/
+}
+
+.card .btn{
+  cursor: pointer;
 }
