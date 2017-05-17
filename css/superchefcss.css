@@ -118,7 +118,7 @@ html{
 
 .wrap {
   position: relative;
-  margin: 3em 0;
+  margin: 1em 3m 3em 0;
 }
 
 
@@ -128,7 +128,6 @@ html{
   height: 100px;
   /*line-height: 10px;*/
   overflow: hidden;
-  margin-bottom: 150px;
 }
 
 .frame ul {
@@ -252,4 +251,8 @@ html{
 .crazy ul li:nth-child(4n) {
   width: 400px;
   margin: 0 30px 0 2px;
+}
+
+.pages{
+  margin-bottom: 150px;
 }
