@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="stylesheet" href="css/superchefcss.css">
+  <style media="screen">
+    #empleado_1,#empleado_2,#empleado_3,#empleado_4,#empleado_5{
+      background-image: url('https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png');
+    }
+  </style>
+</head>
+<body data-spy="scroll" data-target="#menuLateral">
+  <nav class="navbar sticky-top navbar-toggleable-md navbar-light bg-faded" style="background-color: #b71c1c">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#"><img id="logo-SC" src="images/iconoSC.png" alt=""></a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a id="btn-nav-active-sc" class="nav-item nav-link btn btn-sm align-middle btn-primary" href="#">Catálogo<span class="sr-only">(current)</span></a>
+        <a id="btn-nav-sc" class="nav-item nav-link btn btn-sm align-middle btn-primary" href="#">Empresa</a>
+        <a id="btn-nav-sc" class="nav-item nav-link btn btn-sm align-middle btn-primary" href="#">Contactos</a>
+      </div>
+    </div>
+  </nav>
+  <div id="empleados">
+    <div class="container">
+      <div class="row">
+        <div id="empleado_1" idAuxiliar="1" class="empleado"><div class="color"></div></div>
+        <div id="empleado_2" idAuxiliar="2" class="empleado"><div class="color empleado-active"></div></div>
+        <div id="empleado_3" idAuxiliar="3" class="empleado"><div class="color"></div></div>
+        <div id="empleado_4" idAuxiliar="4" class="empleado"><div class="color"></div></div>
+        <div id="empleado_5" idAuxiliar="5" class="empleado"><div class="color"></div></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 descripciones">
+          <div id="emp1" class="empleado_descripcion">
+            <span>Nombre Completo1</span>
+            <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit mattis mi, nec feugiat lacus sodales sed. Nulla a lobortis libero. Duis iaculis nec libero eu laoreet. Vestibulum vel nunc interdum, gravida lacus in, ornare ligula. Proin quis dictum neque. Curabitur ac semper sapien. Duis feugiat sapien nibh, at laoreet elit fermentum non. Integer id sodales ex. Mauris bibendum ante sit amet lorem pretium mollis.</p>
+          </div>
+          <div id="emp2" class="empleado_descripcion" style="display: block;">
+            <span>Juan Camilo Arbelaez(Gerente general)</span>
+            <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit mattis mi, nec feugiat lacus sodales sed. Nulla a lobortis libero. Duis iaculis nec libero eu laoreet. Vestibulum vel nunc interdum, gravida lacus in, ornare ligula. Proin quis dictum neque. Curabitur ac semper sapien. Duis feugiat sapien nibh, at laoreet elit fermentum non. Integer id sodales ex. Mauris bibendum ante sit amet lorem pretium mollis.</p>
+          </div>
+          <div id="emp3" class="empleado_descripcion">
+            <span>Nombre Completo3</span>
+            <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit mattis mi, nec feugiat lacus sodales sed. Nulla a lobortis libero. Duis iaculis nec libero eu laoreet. Vestibulum vel nunc interdum, gravida lacus in, ornare ligula. Proin quis dictum neque. Curabitur ac semper sapien. Duis feugiat sapien nibh, at laoreet elit fermentum non. Integer id sodales ex. Mauris bibendum ante sit amet lorem pretium mollis.</p>
+          </div>
+          <div id="emp4" class="empleado_descripcion">
+            <span>Nombre Completo4</span>
+            <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit mattis mi, nec feugiat lacus sodales sed. Nulla a lobortis libero. Duis iaculis nec libero eu laoreet. Vestibulum vel nunc interdum, gravida lacus in, ornare ligula. Proin quis dictum neque. Curabitur ac semper sapien. Duis feugiat sapien nibh, at laoreet elit fermentum non. Integer id sodales ex. Mauris bibendum ante sit amet lorem pretium mollis.</p>
+          </div>
+          <div id="emp5" class="empleado_descripcion">
+            <span>Nombre Completo5</span>
+            <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit mattis mi, nec feugiat lacus sodales sed. Nulla a lobortis libero. Duis iaculis nec libero eu laoreet. Vestibulum vel nunc interdum, gravida lacus in, ornare ligula. Proin quis dictum neque. Curabitur ac semper sapien. Duis feugiat sapien nibh, at laoreet elit fermentum non. Integer id sodales ex. Mauris bibendum ante sit amet lorem pretium mollis.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar fixed-bottom navbar-light bg-faded" style="background-color: #e53935; color: white;">
+    <span class="navbar-brand text-white"><i class="material-icons">copyright</i>SuperChef 2017</span>
+  </nav>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Sly/1.6.1/sly.min.js'></script>
+
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='http://darsa.in/sly/examples/js/vendor/plugins.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Sly/1.6.1/sly.min.js'></script>
+
+  <script src="js/mostrador.js"></script>
+  <script>
+    $(document).ready(function(){
+      var ancho = $(".empleado").width();
+      $(".empleado").css('height',ancho);
+    });
+    var selectedEmployee;
+    $(".color").click(function(){
+      selectedEmployee = $(this).parent("div");
+      $(".color").removeAttr('style');
+      $(".empleado_descripcion").removeAttr('style');
+      $(this).css('background-color','rgba(0,0,0,0)');
+      //$("#emp" + selectedEmployee.attr("idAuxiliar")).hide('display','block');
+      $("#emp" + selectedEmployee.attr("idAuxiliar")).fadeIn(600);
+
+    });
+    $(".empleado-active").css('background-color','rgba(0,0,0,0)');
+  </script>
+
+</body>
+</html>
