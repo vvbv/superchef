@@ -365,3 +365,27 @@ html{
   padding-top: 1.2em;
   padding-right: 30px;
 }
+
+#misionVision{
+  margin-top: 2em;;
+}
+
+#container-empresa{
+  margin-top: 20px;
+}
+
+.comentario > img{
+  float: left;
+  width: 20%;
+  padding: 5px;
+  width: 100%;
+}
+
+.comentario > sub{
+  float: right;
+  color: #fccb0a;
+  margin-bottom: 5px;
+}
+.comentario > p{
+  padding-top:10px;
+}
