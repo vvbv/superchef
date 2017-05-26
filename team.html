@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
-    <link type="text/css" rel="stylesheet" href="css/superchef.css"/>
-    <meta charset="utf-8">
-    <title>SuperChef - DevTeam</title>
-  </head>
-  <body>
-    <div class="navbar-fixed">
-      <nav class="orange darken-4 nav-extended">
-        <div class="nav-wrapper">
-          <img class="brand-logo logo center" src="images/iconoSC.png"/>
-        </div>
-      </nav>
-      <a class="btn-floating btn-large waves-effect waves-dark z-depth-3 green homeButton" href="index.html" title="Inicio">
-        <i class="material-icons">home</i>
-      </a>
-    </div>
+<head>
+  <meta charset="utf-8">
+  <title>SC - Empresa</title>
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/6f1cf17faf.css">
+  <link rel="stylesheet" href="css/superchefcss.css">
+  <link rel="stylesheet" href="css/superchef.css">
+</head>
+<body data-spy="scroll" data-target="#menuLateral">
+  <nav class="navbar sticky-top navbar-toggleable-md navbar-light bg-faded" style="background-color: #b71c1c">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="index.html"><img id="logo-SC" src="images/iconoSC.png" alt=""></a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
 
+      </div>
+    </div>
+  </nav>
+  <div class="container">
     <div id="team_container">
       <div id="team">
         <div class="persona">
           <img class="persona_portada" src="images/cover_andres.png" alt="">
           <img class = "persona_foto" src="images/perfil_andres.jpg" alt="">
-          <p class="persona_descripcion"><span class="persona_nombre"><strong>J. Andrés Garzón Henao</strong></span><br><br>Programador, amante de la Música. Interesado en instrumentos de percusión, Shaolin Kung fu, ciclismo y videojuegos en linea.</p>
+          <p class="persona_descripcion"><span class="persona_nombre"><strong>J. Andrés Garzón Henao</strong></span><br><br>Programador, amante de la Música. Interesado en instrumentos de percusión, ciclismo y videojuegos en linea.</p>
         </div>
         <div class="persona">
           <img class="persona_portada" src="images/cover_sergio.jpg" alt="">
@@ -41,17 +43,26 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <footer class="page-footer orange darken-4">
-      <div class="footer-copyright">
-        <div class="container">
-          © 2017 SuperChef Development Team.
-        </div>
-        <a class="grey-text text-lighten-4 right" href="team.html"><i class="material-icons right">help_outline</i>Conoce al equipo!</a>
-      </div>
-    </footer>
 
-  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-  <script src="js/materialize.js"></script>
+    <nav class="navbar fixed-bottom navbar-light bg-faded footer_sc">
+      <span class="navbar-brand text-white"><i class="material-icons">copyright</i>SuperChef 2017</span>
+    </nav>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Sly/1.6.1/sly.min.js'></script>
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='http://darsa.in/sly/examples/js/vendor/plugins.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Sly/1.6.1/sly.min.js'></script>
+
+    <script src="js/mostrador.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+      $('.persona').css("filter" , "grayscale(0%)");
+      });
+    </script>
   </body>
-</html>
+  </html>
