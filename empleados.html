@@ -2,7 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>SC - Empleados</title>
+  <link rel="icon" type="image/png" href="img/favicon.png" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
@@ -28,10 +29,10 @@
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="#"><img id="logo-SC" src="images/iconoSC.png" alt=""></a>
+    <a class="navbar-brand" href="index.html"><img id="logo-SC" src="images/iconoSC.png" alt=""></a>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a id="btn-nav-sc" class="nav-item nav-link btn btn-sm align-middle btn-primary" href="catalogo_o.html">Catálogo</a>
+        <a id="btn-nav-sc" class="nav-item nav-link btn btn-sm align-middle btn-primary" href="catalogo.html">Catálogo</a>
         <a id="btn-nav-active-sc" class="nav-item nav-link btn btn-sm align-middle btn-primary" href="empleados.html">Empleados<span class="sr-only">(current)</span></a>
         <a id="btn-nav-sc" class="nav-item nav-link btn btn-sm align-middle btn-primary" href="empresa.html">Empresa</a>
         <a id="btn-nav-sc" class="nav-item nav-link btn btn-sm align-middle btn-primary" href="contacto.html">Contacto</a>
@@ -68,7 +69,7 @@
       </div>
     </div>
   </div>
-  <nav class="navbar fixed-bottom navbar-light bg-faded" style="background-color: #e53935; color: white;">
+  <nav class="navbar fixed-bottom navbar-light bg-faded footer_sc">
     <span class="navbar-brand text-white"><i class="material-icons">copyright</i>SuperChef 2017</span>
   </nav>
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
@@ -92,7 +93,6 @@
       $(".color").removeAttr('style');
       $(".empleado_descripcion").removeAttr('style');
       $(this).css('background-color','rgba(0,0,0,0)');
-      //$("#emp" + selectedEmployee.attr("idAuxiliar")).hide('display','block');
       $("#emp" + selectedEmployee.attr("idAuxiliar")).fadeIn(600);
 
     });

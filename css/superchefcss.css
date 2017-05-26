@@ -348,7 +348,7 @@ html{
   border-width: 1px;
   border-style: solid;
   width: calc(100% - 5px);
-  border-radius: 5px;
+  border-radius: 1px;
 }
 
 .ver > img{
@@ -379,6 +379,7 @@ html{
   border-bottom-width: 1px;
   border-bottom-style: solid;
   margin-top: 2em;
+  width: 100%;
 }
 
 .comentario:last-child{
@@ -388,9 +389,9 @@ html{
 
 .comentario > img{
   float: left;
-  padding: 5px;
-  width: 7em;;
-  height: 7em;
+  padding-right: 10px;
+  width: 100px;
+  height: 90px;
 
 }
 
@@ -425,4 +426,11 @@ html{
   text-decoration: none;
   color: #474747;
   cursor: pointer;
+}
+
+.footer_sc{
+  font-size: 0.5em;
+  background-color: #b71c1c;
+  color: white;
+  /*height: 1.9em;*/
 }
