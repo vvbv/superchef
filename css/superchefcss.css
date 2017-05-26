@@ -269,7 +269,7 @@ html{
 
 .empleado{
   float:left;
-  width: 20%;
+  width: 25%;
   border-right-color: #474747;
   border-right-width: 1px;
   border-right-style: solid;
@@ -364,4 +364,28 @@ html{
 .ver > p{
   padding-top: 1.2em;
   padding-right: 30px;
+}
+
+#misionVision{
+  margin-top: 2em;;
+}
+
+#container-empresa{
+  margin-top: 20px;
+}
+
+.comentario > img{
+  float: left;
+  width: 20%;
+  padding: 5px;
+  width: 100%;
+}
+
+.comentario > sub{
+  float: right;
+  color: #fccb0a;
+  margin-bottom: 5px;
+}
+.comentario > p{
+  padding-top:10px;
 }
