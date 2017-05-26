@@ -374,11 +374,28 @@ html{
   margin-top: 20px;
 }
 
+.comentario{
+  border-bottom-color: #292b2c;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  margin-top: 2em;
+}
+
+.comentario:last-child{
+  border-bottom-width: 0px;
+  margin-bottom: 80px;
+}
+
 .comentario > img{
   float: left;
-  width: 20%;
   padding: 5px;
-  width: 100%;
+  width: 7em;;
+  height: 7em;
+
+}
+
+.comentario > span{
+  font-size: 1.2em;
 }
 
 .comentario > sub{
